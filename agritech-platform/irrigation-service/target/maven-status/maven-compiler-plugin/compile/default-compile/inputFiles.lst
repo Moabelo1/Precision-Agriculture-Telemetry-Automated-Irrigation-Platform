@@ -1,0 +1,16 @@
+C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\irrigation-service\src\main\java\com\agritech\irrigation\client\CropMonitoringClient.java
+C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\irrigation-service\src\main\java\com\agritech\irrigation\client\SensorClient.java
+C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\irrigation-service\src\main\java\com\agritech\irrigation\config\DataInitializer.java
+C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\irrigation-service\src\main\java\com\agritech\irrigation\controller\IrrigationController.java
+C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\irrigation-service\src\main\java\com\agritech\irrigation\dto\AutoIrrigationResultDTO.java
+C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\irrigation-service\src\main\java\com\agritech\irrigation\dto\CropHealthReportDTO.java
+C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\irrigation-service\src\main\java\com\agritech\irrigation\dto\ValveToggleRequest.java
+C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\irrigation-service\src\main\java\com\agritech\irrigation\entity\IrrigationSchedule.java
+C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\irrigation-service\src\main\java\com\agritech\irrigation\entity\IrrigationValve.java
+C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\irrigation-service\src\main\java\com\agritech\irrigation\entity\ValveStatus.java
+C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\irrigation-service\src\main\java\com\agritech\irrigation\entity\WaterConsumptionLog.java
+C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\irrigation-service\src\main\java\com\agritech\irrigation\IrrigationServiceApplication.java
+C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\irrigation-service\src\main\java\com\agritech\irrigation\repository\IrrigationScheduleRepository.java
+C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\irrigation-service\src\main\java\com\agritech\irrigation\repository\IrrigationValveRepository.java
+C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\irrigation-service\src\main\java\com\agritech\irrigation\repository\WaterConsumptionLogRepository.java
+C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\irrigation-service\src\main\java\com\agritech\irrigation\service\IrrigationDecisionService.java

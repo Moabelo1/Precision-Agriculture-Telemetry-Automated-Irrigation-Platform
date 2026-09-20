@@ -1,0 +1,16 @@
+com\agritech\irrigation\client\SensorClient.class
+com\agritech\irrigation\entity\ValveStatus.class
+com\agritech\irrigation\entity\WaterConsumptionLog.class
+com\agritech\irrigation\client\CropMonitoringClient.class
+com\agritech\irrigation\repository\WaterConsumptionLogRepository.class
+com\agritech\irrigation\controller\IrrigationController.class
+com\agritech\irrigation\repository\IrrigationValveRepository.class
+com\agritech\irrigation\repository\IrrigationScheduleRepository.class
+com\agritech\irrigation\dto\CropHealthReportDTO.class
+com\agritech\irrigation\dto\ValveToggleRequest.class
+com\agritech\irrigation\entity\IrrigationValve.class
+com\agritech\irrigation\service\IrrigationDecisionService.class
+com\agritech\irrigation\dto\AutoIrrigationResultDTO.class
+com\agritech\irrigation\IrrigationServiceApplication.class
+com\agritech\irrigation\config\DataInitializer.class
+com\agritech\irrigation\entity\IrrigationSchedule.class

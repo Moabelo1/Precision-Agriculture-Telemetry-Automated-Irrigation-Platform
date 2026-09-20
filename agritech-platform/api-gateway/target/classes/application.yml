@@ -1,0 +1,76 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        # Auth Service Route
+        - id: auth-service-route
+          uri: lb://AUTH-SERVICE
+          predicates:
+            - Path=/api/auth/**
+
+        # Sensor Service Route
+        - id: sensor-service-route
+          uri: lb://SENSOR-SERVICE
+          predicates:
+            - Path=/api/sensors/**
+
+        # Crop Monitoring Service Routes
+        - id: crop-service-crops-route
+          uri: lb://CROP-MONITORING-SERVICE
+          predicates:
+            - Path=/api/crops/**
+
+        - id: crop-service-monitoring-route
+          uri: lb://CROP-MONITORING-SERVICE
+          predicates:
+            - Path=/api/crop-monitoring/**
+
+        # Irrigation Service Route
+        - id: irrigation-service-route
+          uri: lb://IRRIGATION-SERVICE
+          predicates:
+            - Path=/api/irrigation/**
+
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins:
+              - "http://localhost:5173"
+              - "http://127.0.0.1:5173"
+              - "http://localhost:3000"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS
+            allowedHeaders: "*"
+            allowCredentials: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}:${random.value}
+
+jwt:
+  secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,gateway

@@ -1,0 +1,13 @@
+com\agritech\crop\dto\TelemetryReadingDTO.class
+com\agritech\crop\entity\CropHealthEvaluation.class
+com\agritech\crop\CropMonitoringApplication.class
+com\agritech\crop\client\SensorClient.class
+com\agritech\crop\config\DataInitializer.class
+com\agritech\crop\dto\CropHealthReportDTO.class
+com\agritech\crop\entity\HealthStatus.class
+com\agritech\crop\repository\CropHealthEvaluationRepository.class
+com\agritech\crop\repository\CropRepository.class
+com\agritech\crop\controller\CropMonitoringController.class
+com\agritech\crop\service\CropEvaluationService.class
+com\agritech\crop\entity\IrrigationRecommendation.class
+com\agritech\crop\entity\Crop.class

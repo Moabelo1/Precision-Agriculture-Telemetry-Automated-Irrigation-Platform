@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  # ---------------------------------------------------------------------------
+  # PostgreSQL Microservices Multi-Database Setup
+  # ---------------------------------------------------------------------------
+  agritech-postgres:
+    image: postgres:16-alpine
+    container_name: agritech-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+      POSTGRES_DB: agritech_auth_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init-postgres.sql:/docker-entrypoint-initdb.d/init.sql
+    restart: unless-stopped
+
+  # ---------------------------------------------------------------------------
+  # Optional MySQL Microservices Multi-Database Setup
+  # ---------------------------------------------------------------------------
+  agritech-mysql:
+    image: mysql:8.0
+    container_name: agritech-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: agritech_auth_db
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  mysql_data:

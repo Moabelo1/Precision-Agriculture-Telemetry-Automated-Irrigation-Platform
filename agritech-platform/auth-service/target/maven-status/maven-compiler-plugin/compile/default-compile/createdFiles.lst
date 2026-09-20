@@ -1,0 +1,12 @@
+com\agritech\auth\dto\TokenValidationResponse.class
+com\agritech\auth\config\DataInitializer.class
+com\agritech\auth\dto\RegisterRequest.class
+com\agritech\auth\entity\User.class
+com\agritech\auth\security\SecurityConfig.class
+com\agritech\auth\entity\Role.class
+com\agritech\auth\security\JwtUtil.class
+com\agritech\auth\repository\UserRepository.class
+com\agritech\auth\AuthServiceApplication.class
+com\agritech\auth\controller\AuthController.class
+com\agritech\auth\dto\AuthResponse.class
+com\agritech\auth\dto\LoginRequest.class

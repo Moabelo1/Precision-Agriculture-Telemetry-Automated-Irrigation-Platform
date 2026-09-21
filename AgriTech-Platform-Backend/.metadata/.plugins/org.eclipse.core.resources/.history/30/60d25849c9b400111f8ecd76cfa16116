@@ -1,0 +1,5 @@
+package com.agritech.irrigation.service;
+
+public class IrrigationDecisionService {
+
+}

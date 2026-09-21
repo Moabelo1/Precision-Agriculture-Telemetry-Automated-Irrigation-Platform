@@ -1,0 +1,5 @@
+package com.agritech.gateway;
+
+public class CorsConfig {
+
+}

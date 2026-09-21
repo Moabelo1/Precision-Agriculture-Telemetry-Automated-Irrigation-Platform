@@ -1,0 +1,13 @@
+package com.agritech.Eureka_Server;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AgriTechEurekaServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AgriTechEurekaServerApplication.class, args);
+	}
+
+}

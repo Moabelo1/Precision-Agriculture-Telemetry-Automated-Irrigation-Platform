@@ -1,0 +1,5 @@
+package com.agritech.crop.service;
+
+public class CropEvaluationService {
+
+}

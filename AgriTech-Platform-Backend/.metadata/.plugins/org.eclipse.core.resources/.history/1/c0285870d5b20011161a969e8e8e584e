@@ -1,0 +1,5 @@
+package com.agritech.gateway.filter;
+
+public class JwtAuthenticationFilter {
+
+}

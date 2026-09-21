@@ -1,0 +1,5 @@
+package com.agritech.irrigation.repository;
+
+public class WaterConsumptionLogRepository {
+
+}

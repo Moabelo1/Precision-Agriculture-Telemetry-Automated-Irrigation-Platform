@@ -1,0 +1,5 @@
+package com.agritech.sensor.repository;
+
+public class TelemetryReadingRepository {
+
+}

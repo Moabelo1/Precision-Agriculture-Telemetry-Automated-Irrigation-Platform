@@ -1,0 +1,5 @@
+package com.agritech.sensor.entity;
+
+public class SensorDevice {
+
+}

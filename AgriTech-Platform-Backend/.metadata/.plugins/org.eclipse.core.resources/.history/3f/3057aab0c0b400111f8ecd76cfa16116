@@ -1,0 +1,5 @@
+package com.agritech.crop.entity;
+
+public class IrrigationRecommendation {
+
+}

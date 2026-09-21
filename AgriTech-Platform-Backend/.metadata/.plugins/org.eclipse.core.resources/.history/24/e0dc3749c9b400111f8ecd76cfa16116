@@ -1,0 +1,5 @@
+package com.agritech.irrigation.config;
+
+public class DataInitializer {
+
+}

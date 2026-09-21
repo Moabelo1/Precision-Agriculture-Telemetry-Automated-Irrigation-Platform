@@ -1,0 +1,20 @@
+spring.application.name=AgriTech-Platform-API-Gateway
+server.port=8080
+
+
+# ===============================
+# REACTIVE WEBFLUX
+# ===============================
+spring.main.web-application-type=reactive
+
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+eureka.client.fetch-registry=true
+eureka.client.register-with-eureka=true
+eureka.instance.prefer-ip-address=true
+eureka.instance.instance-id=${spring.application.name}:${server.port}:${random.value}
+
+# ===============================
+# SPRING CLOUD GATEWAY - WEBFLUX
+# ===============================
+spring.cloud.gateway.server.webflux.discovery.locator.enabled=true
+spring.cloud.gateway.server.webflux.discovery.locator.lower-case-service-id=true

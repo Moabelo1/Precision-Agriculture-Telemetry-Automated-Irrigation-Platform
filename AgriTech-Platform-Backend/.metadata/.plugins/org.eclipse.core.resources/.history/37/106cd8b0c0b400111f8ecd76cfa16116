@@ -1,0 +1,13 @@
+package com.agritech.crop;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AgriTechIrrigationServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AgriTechIrrigationServiceApplication.class, args);
+	}
+
+}

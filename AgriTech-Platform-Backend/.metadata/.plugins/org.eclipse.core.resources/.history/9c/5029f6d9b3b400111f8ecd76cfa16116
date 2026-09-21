@@ -1,0 +1,5 @@
+package com.agritech.auth.dto;
+
+public class RegisterRequest {
+
+}

@@ -1,0 +1,5 @@
+package com.agritech.auth.security;
+
+public class JwtUtil {
+
+}

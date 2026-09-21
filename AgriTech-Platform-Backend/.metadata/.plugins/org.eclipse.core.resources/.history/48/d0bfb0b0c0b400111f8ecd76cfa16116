@@ -1,0 +1,5 @@
+package com.agritech.crop.config;
+
+public class DataInitializer {
+
+}

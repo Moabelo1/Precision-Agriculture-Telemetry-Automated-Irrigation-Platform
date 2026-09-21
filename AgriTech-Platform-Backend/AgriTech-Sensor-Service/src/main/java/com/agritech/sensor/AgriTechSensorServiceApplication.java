@@ -1,0 +1,15 @@
+package com.agritech.sensor;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+public class AgriTechSensorServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AgriTechSensorServiceApplication.class, args);
+	}
+
+}

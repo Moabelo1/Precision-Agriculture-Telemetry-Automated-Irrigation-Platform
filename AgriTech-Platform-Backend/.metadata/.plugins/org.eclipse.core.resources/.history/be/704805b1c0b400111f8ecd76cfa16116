@@ -1,0 +1,5 @@
+package com.agritech.crop.repository;
+
+public class CropRepository {
+
+}

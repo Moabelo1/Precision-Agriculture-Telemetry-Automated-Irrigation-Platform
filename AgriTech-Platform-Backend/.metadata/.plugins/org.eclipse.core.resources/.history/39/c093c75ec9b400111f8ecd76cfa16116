@@ -1,0 +1,5 @@
+package com.agritech.sensor.config;
+
+public class DataInitializer {
+
+}

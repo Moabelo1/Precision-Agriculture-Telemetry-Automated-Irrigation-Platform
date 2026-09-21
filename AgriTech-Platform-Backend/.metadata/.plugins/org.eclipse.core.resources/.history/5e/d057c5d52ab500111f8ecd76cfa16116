@@ -1,0 +1,33 @@
+spring.application.name=AgriTech-Platform-API-Gateway
+server.port=8080
+
+# Reactive WebFlux
+spring.main.web-application-type=reactive
+
+# Eureka
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+eureka.client.fetch-registry=true
+eureka.client.register-with-eureka=true
+eureka.instance.prefer-ip-address=true
+eureka.instance.instance-id=${spring.application.name}:${server.port}:${random.value}
+
+# Gateway WebFlux Discovery
+spring.cloud.gateway.server.webflux.discovery.locator.enabled=true
+spring.cloud.gateway.server.webflux.discovery.locator.lower-case-service-id=true
+
+# ==============================
+# CORS
+# ==============================
+
+spring.cloud.gateway.globalcors.add-to-simple-url-handler-mapping=true
+
+spring.cloud.gateway.globalcors.cors-configurations.[/**].allowedOrigins=http://localhost:5173,http://127.0.0.1:5173,http://localhost:3000
+
+spring.cloud.gateway.globalcors.cors-configurations.[/**].allowedMethods=GET,POST,PUT,DELETE,OPTIONS
+
+spring.cloud.gateway.globalcors.cors-configurations.[/**].allowedHeaders=*
+
+spring.cloud.gateway.globalcors.cors-configurations.[/**].allowCredentials=true
+
+# JWT
+jwt.secret=404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970

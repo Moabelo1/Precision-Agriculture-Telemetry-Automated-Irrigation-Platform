@@ -1,0 +1,5 @@
+package com.agritech.irrigation.client;
+
+public class CropMonitoringClient {
+
+}

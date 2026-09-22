@@ -1,9 +1,0 @@
-com\agritech\sensor\entity\SensorDevice.class
-com\agritech\sensor\SensorServiceApplication.class
-com\agritech\sensor\dto\TelemetryIngestRequest.class
-com\agritech\sensor\config\DataInitializer.class
-com\agritech\sensor\entity\SensorType.class
-com\agritech\sensor\repository\SensorDeviceRepository.class
-com\agritech\sensor\repository\TelemetryReadingRepository.class
-com\agritech\sensor\controller\SensorController.class
-com\agritech\sensor\entity\TelemetryReading.class

@@ -1,9 +1,0 @@
-C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\sensor-service\src\main\java\com\agritech\sensor\config\DataInitializer.java
-C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\sensor-service\src\main\java\com\agritech\sensor\controller\SensorController.java
-C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\sensor-service\src\main\java\com\agritech\sensor\dto\TelemetryIngestRequest.java
-C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\sensor-service\src\main\java\com\agritech\sensor\entity\SensorDevice.java
-C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\sensor-service\src\main\java\com\agritech\sensor\entity\SensorType.java
-C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\sensor-service\src\main\java\com\agritech\sensor\entity\TelemetryReading.java
-C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\sensor-service\src\main\java\com\agritech\sensor\repository\SensorDeviceRepository.java
-C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\sensor-service\src\main\java\com\agritech\sensor\repository\TelemetryReadingRepository.java
-C:\Users\Admin\.gemini\antigravity\scratch\agritech-platform\sensor-service\src\main\java\com\agritech\sensor\SensorServiceApplication.java

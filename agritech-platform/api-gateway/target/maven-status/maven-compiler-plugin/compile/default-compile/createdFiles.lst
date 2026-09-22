@@ -1,2 +1,0 @@
-com\agritech\gateway\ApiGatewayApplication.class
-com\agritech\gateway\filter\JwtAuthenticationFilter.class
